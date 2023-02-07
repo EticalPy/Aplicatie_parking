@@ -6,7 +6,7 @@ import datetime
 import time
 
 model = torch.hub.load('ultralytics/yolov5', 'custom',
-                       path='/media/bogdan/SSD2/PROIECTE2023/detectare_obiecte_yolov5_masca/model1/best.pt',
+                       path='/............/best.pt',
                        force_reload=True)
 model.conf = 0.60
 max_det = 1
